@@ -1,23 +1,22 @@
 {
   "name": "site",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "@nuxtjs/axios": "^5.12.2",
-    "@nuxtjs/sanity": "^0.3.3",
-    "core-js": "^3.6.5",
-    "nuxt": "^2.14.5"
-  },
-  "devDependencies": {
-    "@nuxtjs/tailwindcss": "^2.1.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-plugin-prettier": "^3.1.4",
-    "prettier": "^2.1.1"
+    "@sanity/block-content-to-react": "^2.0.7",
+    "@sanity/client": "^1.150.7",
+    "@sanity/image-url": "^0.140.19",
+    "groq": "^1.150.1",
+    "next": "9.5.3",
+    "postcss-flexbugs-fixes": "^4.2.1",
+    "postcss-preset-env": "^6.7.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.8.10"
   }
 }
